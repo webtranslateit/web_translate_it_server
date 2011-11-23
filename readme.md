@@ -4,7 +4,13 @@
 
 `wti-server` is a sinatra app you can use to run a friendly web interface to sync your translations. It allows a translation team to refresh the language files on a staging server without asking the developers to manually `wti pull`.
 
-To get started, go to the directory of the application you want to sync and do:
+## Installation
+
+    gem install web_translate_it_server
+
+## Usage
+
+Go to the directory of the application you want to run the server on and do:
 
     wti-server
 
