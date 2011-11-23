@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'trollop'
+require 'web_translate_it_server'
+
+options = Trollop::options do
+  banner <<-EOS
+A synchronisation console for WebTranslateIt.
+
+Usage: wti-server [options]+
+  
+[options] are:
+EOS
+  opt :port, "Run server on a specific port", :default => 4000, :short => "-p"
+  opt :host, "Run server on a specific host", :default => "0.0.0.0", :short => "-h"
+end
+
+WebTranslateItServer.start(options[:host], options[:port])
