@@ -1,4 +1,4 @@
-## Edge
+## Version 0.0.3 / 2012-11-12
 
 * Update to remove Sinatra deprecation warning.
 

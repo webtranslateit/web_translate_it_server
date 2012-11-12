@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "web_translate_it_server" 
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.summary     = "Synchonization server for webtranslateit.com."
   s.email       = "edouard@atelierconvivialite.com"
   s.homepage    = "https://webtranslateit.com"
