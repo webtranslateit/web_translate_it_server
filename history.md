@@ -1,3 +1,7 @@
+## Edge
+
+* Update to remove Sinatra deprecation warning.
+
 ## Version 0.0.2 / 2011-11-23
 
 * Update dependency on Sinatra.
