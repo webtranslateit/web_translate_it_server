@@ -1,3 +1,7 @@
+## Version 0.0.4 / 2013-02-26
+
+* Relax dependencies.
+
 ## Version 0.0.3 / 2012-11-12
 
 * Update to remove Sinatra deprecation warning.
