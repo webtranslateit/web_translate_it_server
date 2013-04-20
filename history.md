@@ -1,3 +1,7 @@
+## Version 0.0.5 / 2013-04-20
+
+* Update my name so it doesn’t contain accentuated characters anymore (seems to make jruby/rubygems 2.0.3 fail to install the gem).
+
 ## Version 0.0.4 / 2013-02-26
 
 * Relax dependencies.

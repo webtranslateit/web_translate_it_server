@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.summary     = "Synchonization server for webtranslateit.com."
   s.email       = "edouard@atelierconvivialite.com"
   s.homepage    = "https://webtranslateit.com"
-  s.authors     = "Édouard Brière"
+  s.authors     = "Edouard Briere"
  
   s.files       = Dir["history.md", "license", "readme.md", "lib/**/*", "bin/**/*"]
     
