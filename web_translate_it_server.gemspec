@@ -3,7 +3,8 @@
 Gem::Specification.new do |s|
   s.name        = "web_translate_it_server" 
   s.version     = "0.0.5"
-  s.summary     = "Synchonization server for webtranslateit.com."
+  s.summary     = "Synchonization server for WebTranslateIt.com."
+  s.description = "A manual synchronization interface for WebTranslateIt.com."
   s.email       = "edouard@atelierconvivialite.com"
   s.homepage    = "https://webtranslateit.com"
   s.authors     = "Edouard Briere"
@@ -18,6 +19,8 @@ Gem::Specification.new do |s|
   s.rdoc_options     = ["--main", "readme.md"]
   s.extra_rdoc_files = ["history.md", "readme.md"]
   
+  s.license = 'MIT'
+
   s.require_path       = 'lib'
   s.bindir             = 'bin'
   s.executables        = 'wti-server'
